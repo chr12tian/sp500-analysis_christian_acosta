@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 server = 'DESKTOP-TO6E6D6\\SQLEXPRESS01'
 database = 'SP500'
 username = 'root'
-password = '12345678'
+password = '12345'
 connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
 # Conexión a la base de datos
