@@ -1,0 +1,5 @@
+requests
+BeautifulSoup
+yfinance
+logging
+tqdm
