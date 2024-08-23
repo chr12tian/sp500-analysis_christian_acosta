@@ -27,17 +27,17 @@ Estructura del Proyecto
 Instrucciones de Instalación y Uso
 Clona el repositorio:
 git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+cd _repositorio
 
-Crea un entorno virtual e instala las dependencias:
+Crear un entorno virtual e instalar las dependencias:
 python -m venv venv
 source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
 pip install -r requirements.txt
 
-Configura tu entorno:
-Asegúrate de tener acceso a una instancia de SQL Server.
+Configurar entorno:
+tener acceso a una instancia de SQL Server.
 Configura las credenciales de acceso en un archivo .env.
-Ejecuta el proyecto:
+Ejecutar el proyecto:
 python scripts/extract.py
 python scripts/transform.py
 python scripts/load.py
